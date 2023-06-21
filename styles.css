@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 400px;
+  }
+  
+ .row {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+.button {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+  }
+
+.zero {
+    width: 120px;
+ }
+
+.number{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    background-color: #eed5c2;
+}  
+  
+.operator , .equal-to, .dunno, .clear {
+    font-size: 20px;
+    color: white;
+    background-color: #e56b70;
+}
+
+#content {
+    width: 240px;
+    height: 300px;
+    background-color: #ddf0ff;
+}
+
+#content-1 {
+    font-weight: 800px;
+    font-size: 30px;
+    margin-left: -71%;
+    margin-top: 34%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: break-word;
+}
+
+.container {
+position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
